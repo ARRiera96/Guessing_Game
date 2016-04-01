@@ -1,0 +1,178 @@
+
+
+	 /* General */
+
+ 	* {
+		-webkit-box-sizing: border-box;
+
+ 	}
+	body{
+		position: relative;
+		background-image: url(http://40.media.tumblr.com/61301f7d2289262e3a32e3bf121327b1/tumblr_mu8sd96Omd1raw451o3_1280.jpg);
+		background-repeat: none;
+		background-size: cover;
+		background-attachment: fixed; 
+/*		border: 5px solid green;
+*/		
+	}
+	
+	 /* Typography */
+	 @font-face {
+    	font-family: myFirstFont;
+   		 src: url('vagtur.ttf');
+	}
+
+	h1{
+		font-family: myFirstFont;
+		text-align: center;
+		font-size: 100px;
+		color: black;
+		margin-bottom: 0;
+	}
+	h2{
+		text-align: center;
+		color: white;
+
+	}
+
+
+
+
+	 /* Main Content */
+
+	.click_indicator2{
+		display:none;
+		color: #4d0000;
+	}
+	.main_Content{
+		position: relative;
+		height: 600px;
+		padding: 0;
+/*		border: 5px solid black;
+*/	}
+
+	.picHere{
+		text-align: center;
+		
+		
+	}
+	.penguinsUmbrella{
+		z-index: 1;
+		opacity: 1;
+		-webkit-transition: opacity 1s;
+		transition: opacity 1s;
+		
+	}
+	.permahover {
+		opacity: 0;
+		z-index: -1;
+
+	}
+	.permahover2 {
+		opacity: 0;
+		display: none;
+
+	}
+
+	.nygma{
+		padding: 0;
+		opacity: 0; 
+		z-index: -1;
+		position: absolute;
+		bottom: 0;
+		right: -15px;
+		-webkit-transition: opacity 3s;
+		transition: opacity 3s;
+		
+	}
+	.penguin{
+		opacity: 0;
+		z-index: -1;
+		position: absolute;
+		bottom: 0;
+		left: -100px;
+		-webkit-transition: opacity 3s;
+		transition: opacity 3s;
+	}
+	.opa{
+		display:block;
+		opacity: 1;
+
+	}
+	
+	.gameForm{
+		z-index: -1;
+		position: absolute;
+		top: 10%;
+		left: 43%;
+		opacity: 0;
+		
+		-webkit-transition: opacity 3s;
+		transition: opacity 3s;
+
+	}
+
+	
+
+	/*Button Styles*/
+
+	.playersGuess{
+
+		width: 200px;
+    	height: 75px;
+        border-radius: 4px;
+        font-size: 17px;
+		}
+
+		.opa1{
+		z-index: 1;
+		opacity: 1;
+
+	}
+	.btn {
+		margin-top:10px;
+		margin-left: 13px;
+		display: block;
+		-webkit-border-radius: 28;
+		-moz-border-radius: 28;
+		border-radius: 28px;
+		font-family: Arial;
+		color: #ffffff;
+		font-size: 20px;
+		background: #4d0000;
+		padding: 10px 20px 10px 20px;
+		text-decoration: none;
+	}
+
+	.btn_2{
+		background:#b3b3b3;
+
+	}
+
+	.btn_3{
+		margin-top:10px;
+		margin-left: 28px;
+		display: block;
+		-webkit-border-radius: 28;
+		-moz-border-radius: 28;
+		border-radius: 28px;
+		font-family: Arial;
+		color: #ffffff;
+		font-size: 20px;
+		background:  #4d0000;
+		padding: 10px 20px 10px 20px;
+		text-decoration: none;
+}
+
+/*Hidden user info*/
+h3{
+	color: white;
+	font-size: 20px;
+}
+#status{
+display: none;
+text-align: center;
+font-size: 20px;
+}
+
+
